@@ -9,7 +9,7 @@ import sys
 
 def get_country(ip_address):
 
-	api_key = '30707f39960d942120ab1f9d0849ab2f'
+	api_key = 'GET_YOUR_OWN'
 	api_url = "http://api.ipstack.com/{}?access_key={}&format=2".\
 		format(ip_address, api_key)
 	
